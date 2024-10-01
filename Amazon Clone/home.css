@@ -1,0 +1,576 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(14, 15, 46);
+    border: 2px solid black;
+    height: 55px;
+    width: 100%;
+    color: white;
+
+
+}
+
+header .logo a {
+    text-decoration: none;
+    font-size: 30px;
+    margin: 6px 6px;
+    color: white;
+    /* MAIN PADDING */
+    padding: 7px 12px;
+    cursor: pointer;
+
+}
+
+header .logo a:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+header .logo span {
+    font-size: 18px;
+    font-weight: 200;
+
+}
+
+header .location h5 {
+    font-size: 12px;
+    padding: 8px 12px;
+    cursor: pointer;
+    color: rgb(168, 168, 168);
+
+}
+
+header .location a {
+    font-weight: bolder;
+    color: white;
+    font-size: 13px;
+
+
+}
+
+
+header .location:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+
+header .search-box input {
+    width: 700px;
+    height: 45px;
+    border-radius: 4px;
+    margin: 0px 12px;
+    padding-left: 30px;
+
+}
+
+header .search-box input::placeholder {
+    font-size: 16px;
+    text-transform: capitalize;
+
+}
+
+header .search-box {
+    position: relative;
+}
+
+header .search-box i {
+    position: absolute;
+    bottom: 1px;
+    right: 13px;
+    font-size: 31px;
+    /* font-weight: ; */
+    cursor: pointer;
+    padding: 6px;
+    box-sizing: border-box;
+    width: px;
+    background-color: rgb(231, 189, 92);
+
+}
+
+header .search-box i:hover {
+    background-color: rgb(215, 159, 29);
+}
+
+
+header .drop-down select {
+    width: 58px;
+    height: 45px;
+    background-color: rgb(14, 15, 46);
+    margin: 0 14px 0 1px;
+    padding-left: 10px;
+    padding-right: 12px;
+    cursor: pointer;
+    color: white;
+    border: none;
+
+
+}
+
+header .drop-down :hover {
+    border: 1px solid white;
+    border-radius: 2px;
+
+}
+
+
+header .signin h5 {
+    cursor: pointer;
+    margin-left: 0;
+    margin-right: 10px;
+    padding: 8px 20px 8px 20px;
+
+}
+
+header .signin span {
+    font-weight: bolder;
+}
+
+header .signin:hover {
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+header .cart {
+    cursor: pointer;
+    padding: 8px 20px;
+
+}
+
+header .cart h5 span {
+    font-size: px;
+    font-weight: bolder;
+}
+
+header .cart:hover {
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+header .cart-2 {
+    cursor: pointer;
+    padding: 8px 30px;
+    font-size: 22px;
+
+}
+
+header .cart-2:hover {
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+/* NAVBAR SECTION */
+
+
+nav .nav-sec {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    background-color: rgb(42, 43, 71);
+    height: 45px;
+    color: white;
+    padding-top: 8px;
+    font-size: 14px;
+
+
+}
+
+nav .nav-sec span{
+    padding: 8px 20px 10px 20px;
+    cursor: pointer;
+}
+
+nav .nav-sec :hover{
+    border: 1px solid white;
+    border-radius:4px ;
+
+}
+
+
+/* BODY SECTION */
+
+
+
+.main-img a img {
+    width: 100%;
+    -webkit-mask-image: linear-gradient( white, transparent);
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 350px;
+    left: 46px;
+    gap: 20px;
+
+
+}
+
+
+.container-1 {
+    width: 345px;
+    height: 420px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+    position: relative;
+    `
+}
+
+
+.container-2 {
+    width: 345px;
+    height: 420px;
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+}
+
+
+.container-3 {
+    width: 345px;
+    height: 420px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+}
+
+
+.container-4 {
+    width: 345px;
+    height: 420px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+}
+
+.wrapper h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.wrapper a h5 {
+    text-decoration: none;
+    color: rgb(85, 133, 121);
+    margin-left: 14px;
+    margin-top: 70px;
+}
+
+.wrapper .img-sec a img {
+    width: 45%;
+    margin-left: 10px;
+    margin-top: 25px;
+
+}
+
+
+/* ------------NEXT LINE---------------- */
+
+
+.wrapper-2 {
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-left: 20px;
+
+
+}
+
+
+.wrapper-2 .container-big {
+
+
+    width: 710px;
+    height: 420px;
+
+}
+
+.wrapper-2 .container-big a img {
+
+    width: 100%;
+    height: 100%;
+}
+
+
+.wrapper-2 .container-5 {
+
+    width: 345px;
+    height: 420px;
+
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+
+}
+
+.wrapper-2 .container-6 {
+
+    width: 345px;
+    height: 420px;
+
+    box-shadow: #63636333 0px 2px 8px 0px;
+    background-color: white;
+
+}
+
+.wrapper-2 .img-sec a img {
+    width: 45%;
+    margin-left: 10px;
+    margin-top: 25px;
+
+}
+
+.wrapper-2 .container-6 .img-sec a img {
+    width: 37%;
+    margin-left: 10px;
+    margin-top: 25px;
+
+}
+
+
+.wrapper-2 h3 {
+
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.wrapper-2 a h5 {
+    text-decoration: none;
+    color: rgb(85, 133, 121);
+    margin-left: 14px;
+    margin-top: 70px;
+}
+
+/* -------------MENU SLIDER SECTION------------- */
+
+.wrapper-3 .container-long {
+    width: 96%;
+    height: 285px;
+    margin-left: 45px;
+    margin-top: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+
+.wrapper-3 .container-long .img-sec a img {
+    width: 160px;
+    padding-left: 50px;
+}
+
+
+.wrapper-3 .container-long h3 {
+
+    padding: 20px;
+
+}
+
+.wrapper-3 .container-long h3 a {
+
+    margin-left: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(85, 133, 121);
+}
+
+
+
+
+/* ---------------BACK TO TOP---------- */
+
+
+.scrolltop {
+
+    width: 100%;
+    height: 45px;
+    background-color: rgba(59, 76, 99, 0.888);
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: 21px;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+/* ---------FOOTER SECTION---------- */
+
+
+.wrapper-4 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 350px;
+    width: 100%;
+    background-color: rgb(40, 50, 64);
+    color: white;
+}
+
+.wrapper-4 .section {
+    margin-top: 50px;
+}
+
+.wrapper-4 .section .links .items {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+
+}
+
+.wrapper-4 .section .links .items {
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+
+
+.wrapper-4 .section .links h4 {
+    font-size: 17px;
+
+}
+
+
+.wrapper-4 .section .links .items a {
+    color: white;
+}
+
+.wrapper-4 .section .links .items a:hover {
+    text-decoration: underline;
+}
+
+
+/* -------FOOTER SECTION-2 --------- */
+
+
+.wrapper-5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-5 .section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgb(40, 50, 64);
+    margin-top: 0.2px;
+    height: 70px;
+    width: 100%;
+    color: white;
+
+}
+
+.wrapper-5 .section-2 select {
+    color: white;
+    background-color: rgb(40, 50, 64);
+    font-size: 15px;
+    padding: 6px 14px;
+    border: 1px solid white;
+    border-radius: 2px;
+
+}
+
+
+
+
+/* -----------wrapper-5 section -2--------------- */
+
+.wrapper-5 .total-line {
+
+    background-color: rgb(19, 19, 24);
+    color: white;
+cursor: pointer;
+}
+
+
+
+
+.wrapper-5 .line {
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 180px;
+    margin-top: 20px;
+    margin-left: 280px;
+
+
+
+}
+
+.wrapper-5 .line-2 {
+    display: flex;
+    align-content: center;
+    justify-content: left;
+    gap: 180px;
+    margin-top: 20px;
+    margin-left: 280px;
+
+}
+
+.wrapper-5 .total-line .line .words h5 {
+
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.wrapper-5 .total-line span {
+    font-size: 12px;
+    font-weight: 10;
+    text-transform: capitalize;
+}
+
+.wrapper-5 .total-line .words:hover{
+    text-decoration: underline;
+}
+
+/* <!-- -------COPY RIGHT SECTION------------- --> */
+
+
+.rights {
+   background-color: rgb(19, 19, 24);
+
+}
+
+.rights .rgt  {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+   text-transform: capitalize;
+   padding-top: 20px;
+   font-size: 14px;
+
+}
+
+.rights .rgt a {
+    color: white;
+}
+
+
+.rights .cpy {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.rights .dev {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 13px;
+    font-family: monospace;
+    padding-bottom: 10px;
+}
